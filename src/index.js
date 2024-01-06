@@ -6,6 +6,7 @@ import NotiList from './chapter6/NotiList';
 import Count from './chapter7/Count';
 import Accom from './chapter7/Accommodate'
 import Event from './chapter8/Event'
+import Login from './chapter9/Login'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,7 +15,8 @@ root.render(
   // <NotiList />
   // <Count />
   // <Accom />
-  <Event />
+  // <Event />
+  <Login />
 );
 
 // // setInterval을 통해 1000ms(1초) 마다 clock 컴포넌트의 element가 새롭개 생성되게 해줌
