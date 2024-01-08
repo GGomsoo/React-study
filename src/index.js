@@ -12,6 +12,7 @@ import StuList from './chapter10/StudentList';
 import NameForm from './chapter11/NameForm';
 import RequestsForm from './chapter11/RequestForm';
 import FruitForm from './chapter11/FruitForm';
+import SignUp from './chapter11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,7 +27,8 @@ root.render(
 
   // <NameForm />
   // <RequestsForm />
-  <FruitForm />
+  // <FruitForm />
+  <SignUp />
 );
 
 // // setInterval을 통해 1000ms(1초) 마다 clock 컴포넌트의 element가 새롭개 생성되게 해줌
