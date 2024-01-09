@@ -1,0 +1,7 @@
+.cardStyle {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+
+  box-shadow: 0px 0px 4px gray;
+}
