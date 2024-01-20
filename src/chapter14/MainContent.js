@@ -10,8 +10,8 @@ function MainContent() {
       className={styles.mainStyle}
       style=
       {{
-        backgroundColor: theme == "light" ? "white" : "black",
-        color: theme == "light" ? "black" : "white"
+        backgroundColor: theme === "light" ? "white" : "black",
+        color: theme === "light" ? "black" : "white"
       }}
     >
       <h3>화이트모드 / 다크모드 기능 구현중.</h3>
